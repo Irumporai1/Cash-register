@@ -1,0 +1,82 @@
+:root {
+  --primary-color: #3730a3;
+  --secondary-color: #eef2ff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  color: white;
+}
+
+p{
+    font-size: large;
+}
+
+.container {
+  width: 100%;
+  max-width: 500px;
+  min-height: 200px;
+  margin: auto;
+  text-align: center;
+  padding: 1rem 1rem;
+  background-color: var(--primary-color);
+}
+
+.label {
+  font-size: large;
+  padding: 1rem 1rem;
+}
+
+.cashInput {
+  display: none;
+}
+
+.returnChange {
+  display: none;
+}
+
+input {
+  padding: 0.5rem;
+  width: 100%;
+  height: 50px;
+  display: block;
+}
+
+button {
+  margin: 1rem auto;
+  padding: 0.4rem 1rem;
+  font-size: large;
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  border: none;
+  display: block;
+  font-weight: bold;
+}
+
+.error-msg {
+  font-size: larger;
+}
+
+.returnChange {
+  text-align: center;
+}
+
+table {
+  width: 100%;
+  table-layout: fixed;
+}
+
+table,
+th,
+td {
+  padding: 1rem 0rem;
+  table-layout: fixed;
+  background-color: var(--secondary-color);
+  border: 2px solid var(--primary-color);
+  border-collapse: collapse;
+  color: black;
+}
