@@ -8,7 +8,7 @@ const cashGivenInput = document.querySelector(".cashInput");
 const returnOutput = document.querySelector(".returnChange");
 
 
-const noteArray=[2000,500,100,50,20,10,1];
+const noteArray=[2000,500,100,20,10,5,1];
 
 
 nxtButton.addEventListener("click",nextClickHandler)
